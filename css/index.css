@@ -1,81 +1,96 @@
 body {
-    background-color: #081426 !important;
-    color: #b0cdf1 !important;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: #081426 !important;
+  color: #b0cdf1 !important;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.body{
-    margin: 8rem;
+.body {
+  margin: 8rem;
 }
 
 .b1 {
-    border: 1px solid #60ffd9;
-    color: #60ffd9;
-    background: none;
-    cursor: pointer;
-    margin: 0;
-    padding: 15px;
-    border-radius: 10%;
-    text-decoration:none;
+  border: 1px solid #60ffd9;
+  color: #60ffd9;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 15px;
+  border-radius: 10%;
+  text-decoration: none;
 }
 
 ul > li {
-    color: #b0cded;
+  color: #b0cded;
 }
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 
 .item {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-left: 2px solid #41629b;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 2px solid #41629b;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-.item-kubilabs{
-    border-left: 2px solid #009076;
+.item-kubilabs {
+  border-left: 2px solid #009076;
 }
 
 .item-color {
-    border-left: 2px solid #009076 !important;
+  border-left: 2px solid #009076 !important;
 }
 
 .item-default {
-    border-left: 2px solid #41629b !important;
+  border-left: 2px solid #41629b !important;
 }
 
 .experence::after {
-    top: -15px;
-    width: 400px;
-    height: 1px;
-    margin-left: 190px;
-    background-color: #233554;
-    display: block;
-    position: relative;
-    content: "";
+  top: -15px;
+  width: 400px;
+  height: 1px;
+  margin-left: 190px;
+  background-color: #233554;
+  display: block;
+  position: relative;
+  content: '';
 }
 
 .proyectos::after {
-    top: -15px;
-    width: 400px;
-    height: 1px;
-    margin-left: 350px;
-    background-color: #233554;
-    display: block;
-    position: relative;
-    content: "";
+  top: -15px;
+  width: 400px;
+  height: 1px;
+  margin-left: 350px;
+  background-color: #233554;
+  display: block;
+  position: relative;
+  content: '';
 }
 
 .contacto::after {
-    top: -15px;
-    width: 400px;
-    height: 1px;
-    margin-left: 150px;
-    background-color: #233554;
-    display: block;
-    position: relative;
-    content: "";
+  top: -15px;
+  width: 400px;
+  height: 1px;
+  margin-left: 150px;
+  background-color: #233554;
+  display: block;
+  position: relative;
+  content: '';
 }
 
+.image-background {
+  background-color: #009076;
+  opacity: 0.5;
+  transition: background-color 0.5s ease; /* Agrega la transición de color al borde */
+  transition: opacity 0.5s ease; /* Agrega la transición de color al borde */
+}
+
+.image-link {
+  position: absolute;
+  width: 32%;
+}
+
+.image-background:hover {
+  opacity: 1;
+}
