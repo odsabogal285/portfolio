@@ -80,16 +80,10 @@ ul > li {
 }
 
 .image-background {
-  background-color: #009076;
   opacity: 0.5;
-  transition: background-color 0.5s ease; /* Agrega la transición de color al borde */
   transition: opacity 0.5s ease; /* Agrega la transición de color al borde */
 }
 
-.image-link {
-  position: absolute;
-  width: 32%;
-}
 
 .image-background:hover {
   opacity: 1;
