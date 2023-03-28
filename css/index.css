@@ -56,3 +56,25 @@ ul > li {
     content: "";
 }
 
+.proyectos::after {
+    top: -15px;
+    width: 400px;
+    height: 1px;
+    margin-left: 350px;
+    background-color: #233554;
+    display: block;
+    position: relative;
+    content: "";
+}
+
+.contacto::after {
+    top: -15px;
+    width: 400px;
+    height: 1px;
+    margin-left: 150px;
+    background-color: #233554;
+    display: block;
+    position: relative;
+    content: "";
+}
+
