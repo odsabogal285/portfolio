@@ -4,6 +4,10 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .body {
   margin: 8rem;
 }
@@ -87,4 +91,88 @@ ul > li {
 
 .image-background:hover {
   opacity: 1;
+}
+
+
+
+  /* Para pantallas pequeñas */
+@media only screen and (max-width: 767px) {
+  .body {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #container-bio-info {
+    width: 82% !important;
+  }
+  .btn-resumen {
+    display: none !important;
+  }
+  #images-languages {
+    margin-bottom: 10px !important;
+  }
+
+  .remove-flex {
+    flex: 0 0 100% !important;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .list {
+    padding-left: 0px !important;
+  }
+
+  #container-experence {
+    width: 80% !important;
+  }
+
+  .experence::after {
+    width: auto !important;
+  }
+
+  #container-works {
+    width: 80% !important;
+  }
+
+  .proyectos::after {
+    display: none !important;
+  }
+
+  .tittle-works {
+    margin-top: 10px;
+    text-align: center !important;
+  }
+
+  .banner-works {
+    width: 100% !important;
+    left: 0 !important;
+  }
+
+  .description-works {
+    text-align: center !important;
+  }
+
+  .languajes-works {
+    text-align: center !important;
+  }
+
+  .urls-works{
+    justify-content: center !important;
+  }
+
+  #container-contact {
+    width: 80% !important;
+  }
+}
+
+/* Para pantallas medianas */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+/* Para pantallas grandes */
+@media only screen and (min-width: 1024px) {
+  
 }
